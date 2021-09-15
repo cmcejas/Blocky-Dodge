@@ -97,7 +97,7 @@ while running:
     # hitboxes
     hits = pygame.sprite.spritecollide(player, mobs, False)
     if hits:
-        
+        running = False
 
     # Draw / render
     screen.fill((18,18,18))
